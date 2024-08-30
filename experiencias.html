@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mis Experiencias</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+10&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="Logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Sobre Mi</a></li>
+                <li><a href="experiencias.html">Mis Experiencias</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+            <div class="menu-icon" id="menu-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="experiencias">
+            <h2>Mis Experiencias</h2>
+            <div class="experiencias-container">
+                <div class="experiencia-list">
+                    <div class="experiencia-item" data-experiencia="1">
+                        <h3>Previred</h3>
+                        <p>Fecha: Agosto 2024 - Enero 2025</p>
+                    </div>
+                    <div class="experiencia-item" data-experiencia="2">
+                        <h3>Industrias Textiles ALKA</h3>
+                        <p>Fecha: Marzo 2022 - Diciembre 2023</p>
+                    </div>
+                    <div class="experiencia-item" data-experiencia="3">
+                        <h3>Mantenimiento de Equipos de Cómputo - Freelance</h3>
+                        <p>Fecha: Enero 2020 - Actualidad</p>
+                    </div>
+                </div>
+                <div class="experiencia-details" id="experiencia-details">
+                    <h3>Detalles de la experiencia</h3>
+                    <p>Selecciona una experiencia para ver más detalles.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div id="modal" class="modal">
+        <button class="close-modal">Cerrar</button>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

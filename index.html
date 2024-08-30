@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <img src="images/Logo.png">
+        <nav>
+            <div class="menu-icon" id="menu-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul>
+                <li><a href="#inicio">Sobre Mi</a></li>
+                <li><a href="#experiencias">Mis Experiencias</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+        <a href="https://www.canva.com/design/DAEh1zAHv5E/kueUMkHLlSy5i3D3YUIJzg/view?utm_content=DAEh1zAHv5E&utm_campaign=designshare&utm_medium=link&utm_source=editor" class="btn-cv" download>Revisa mi CV</a>
+    </header>
+
+    <main>
+        <!-- Sección de Inicio -->
+        <section id="inicio">
+            <div class="content">
+                <h1>Bienvenido <i class="material-icons">handshake</i></h1>
+                <img src="images/perfil2.png" alt="Foto de perfil">
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/daniel-felipe-pulido-castro-8a84881a2/" target="_blank" class="icon linkedin"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/sakinad.hacker/" target="_blank" class="icon instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="https://wa.me/+573147722027" target="_blank" class="icon whatsapp"><i class="fab fa-whatsapp"></i></a>
+                    <a href="mailto:sakinad0514@gmail.com" target="_blank" class="icon email"><i class="fa-solid fa-inbox"></i></a>
+                </div>
+                <p>Soy un Administrador de Redes con experiencia en la gestión y soporte de infraestructura de redes 
+                    y comunicaciones. Con un sólido conocimiento en diseño de soluciones de telecomunicaciones, 
+                    configuración y administración de equipos de red multicapa, y experiencia en proyectos de alta 
+                    complejidad en Datacenter y Cloud, estoy comprometido con la optimización y seguridad de las redes empresariales. 
+                    Mi formación incluye un tecnólogo en gestión de redes de datos y múltiples certificaciones en tecnologías de red.</p>
+            </div>
+        </section>
+
+        <!-- Sección de Habilidades -->
+        <section id="skills">
+            <h2>Mis Habilidades</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <i class="material-icons">cloud</i>
+                    <h3>Telecomunicaciones</h3>
+                    <p>Programación de equipos de telecomunicaciones como Cisco, Huawei, Allied Telesis, Tp-Link entre otros.</p>
+                </div>
+                <div class="skill-card">
+                    <i class="material-icons">code</i>
+                    <h3>Sistemas</h3>
+                    <p>Uso de diferentes Sistemas Operativos, como Linux, Mac, Windows, entre otros.</p>
+                </div>
+                <div class="skill-card">
+                    <i class="material-icons">router</i>
+                    <h3>Redes de Datos</h3>
+                    <p>Conocimientos en Sostenimiento y mantenimiento de redes.</p>
+                </div>
+                <div class="skill-card">
+                    <i class="material-icons">brush</i>
+                    <h3>Diseño Gráfico</h3>
+                    <p>Habilidades en Photoshop, Illustrator y diseño UX/UI.</p>
+                </div>
+                <div class="skill-card">
+                    <i class="material-icons">videocam</i>
+                    <h3>Edición de Videos</h3>
+                    <p>Habilidades en creación y edición de videos.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de Experiencias -->
+        <section id="experiencias">
+            <h2>Mis Experiencias</h2>
+            <div class="experiencias-container">
+                <div class="experiencia-list">
+                    <div class="experiencia-item" data-experiencia="1">
+                        <h3>Previred</h3>
+                        <p>Fecha: Agosto 2024 - Enero 2025</p>
+                    </div>
+                    <div class="experiencia-item" data-experiencia="2">
+                        <h3>Industrias Textiles ALKA</h3>
+                        <p>Fecha: Marzo 2022 - Diciembre 2023</p>
+                    </div>
+                    <div class="experiencia-item" data-experiencia="3">
+                        <h3>Mantenimiento de Equipos de Cómputo - Freelance</h3>
+                        <p>Fecha: Enero 2020 - Actualidad</p>
+                    </div>
+                </div>
+                <div class="experiencia-details" id="experiencia-details">
+                    <h3>Detalles de la experiencia</h3>
+                    <p>Selecciona una experiencia para ver más detalles.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="estudios"> 
+            <h2>Mis Estudios</h2>
+            <div class="estudios-container">
+                <div class="certificados-list">
+                    <div class="certificado-item" data-certificado="1">
+                        <h3>Tecnológo en Gestion de redes de Datos</h3>
+                        <p>Fecha: Actualidad</p>
+                    </div>
+                    <div class="certificado-item" data-certificado="2">
+                        <h3>Ingenieria de Sistemas</h3>
+                        <p>Fecha: Actualidad</p>
+                    </div>
+                    <div class="certificado-item" data-certificado="3">
+                        <h3>Técnico En Diseño Grafico</h3>
+                        <p>Fecha: Octubre 2020</p>
+                    </div>
+                </div>
+                <div class="certificado-details" id="certificado-details">
+                    <h3>Detalle De los Certificados</h3>
+                    <p>Selecciona un certificado para ver más detalles.</p>
+                </div>
+            </div>
+        </section>
+        <section id="contacto">
+            <h2>Contáctenos</h2>
+            <p>Si deseas ponerte en contacto, puedes enviarme un correo o escribirme a través de redes sociales.</p>
+            <div class="button-group">
+                <a href="mailto:sakinad0514@gmail.com" class="email-btn">Enviar Correo</a>
+                <a href="https://api.whatsapp.com/send?phone=+573147722027&text=Hola,%20me%20gustaria%20hablar%20contigo!!!!!%20me%20interesa%20tus%20servicios..." class="chat-btn">Iniciar Chat</a>
+            </div>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/daniel-felipe-pulido-castro-8a84881a2/" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="https://api.whatsapp.com/send?phone=+573147722027&text=Hola,%20me%20gustaria%20hablar%20contigo!!!!!%20me%20interesa%20tus%20servicios..." aria-label="whatsapp"><i class="fab fa-whatsapp"></i></a>
+                <a href="https://www.instagram.com/sakinad.hacker/" aria-label="instagram"><i class="fab fa-instagram"></i></a>
+            </div>
+        </section>        
+    </main>
+
+    <footer>
+        <p>&copy; 2024 DanielP</p>
+    </footer>
+
+    <div id="modal" class="modal">
+        <button class="close-modal">Cerrar</button>
+    </div>
+</body>
+</html>
